@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "Archivo-Regular";
+    src: local("Archivo-Regular"),
+      url('./Archivo-Regular.ttf') format("truetype");
+    font-weight: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.contactNav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.contactNav > ul {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.contactNav > ul > li  {
+    list-style: none;
+    display: inline;
+    padding: 30px;
+
+}
+
+.navItem {
+    text-decoration: none;
+    align-items: center;
+}
+
+.contactNavLeft {
+    
+    position: relative;
+    right: -5%;
+    display: flex;
+}
+
+.contactNavLeft > li  {
+    margin: -40px;
+}
+
+
+
+
+
+
+i#facebook {
+    width: 18px;
+    height: 18px;
+    margin: 0 18px 0 0;
+    opacity: 0.2;
+}
+
+i#instagram {
+    width: 18px;
+    height: 18px;
+    margin: 0 18px;
+    opacity: 0.2;
+}
+
+i#twitter {
+    width: 18px;
+    height: 15px;
+    margin: 2px 0 1px 18px;
+    opacity: 0.2;
+}
+
+.contactNavRight {
+    position: relative;
+    right: -20%;
+}
+
+hr {
+    border: 1px solid #ee5f20;
+}
+
+hr#line1 {
+    width: 29px;
+    margin: 0 0 8px;
+}
+
+hr#line2 {
+    width: 21px;
+    margin: 8px 8px 0 0;
+}
+
+.logo {
+    position: relative;
+    left: 10%;
+  }
+  
+  .logo > a > img {
+    width: 216px;
+    height: 32px;
+  }
+
+  
+.contactFormContainer {
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+label {
+    width: 88px;
+    height: 16px;
+    font-family: 'Archivo-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #31211b;
+    text-transform: uppercase;
+}
+
+.input {
+
+    width: 658px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 5%;
+    border-bottom: 1px solid rgba(49, 33, 27, 0.2);
+    height: 50px;
+}
+
+.input::placeholder {
+    width: 176px;
+    height: 24px;
+    opacity: 0.3;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #31211b;
+}
+
+input#message {
+    height: 100px;
+
+}
+
+input#message::placeholder {
+    position: relative;
+    top: -20px;
+
+}
+
+.btn {
+    width: 223px;
+    height: 58px;
+    padding: 17px 23.9px 17px 26px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ee5f20;
+} 
+
+.btn span {
+    width: 132px;
+    height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+i.fa.fa-arrow-right {
+    width: 17.1px;
+    height: 12.1px;
+    margin: 6px 0 5.9px 24px;
+    color: #ffffff;
+}
+
+
+

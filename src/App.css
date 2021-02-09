@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Archivo-Bold";
+  src: local("Archivo-Bold"),
+    url("./fonts/Archivo-Bold.ttf") format("truetype");
+  font-weight: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 1440px;
+  height: 805px;
+  padding: 63px 13px 71px;
+  background-color: #f4f1ed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.drone {
+  margin: 161px 204.5px 176px 534px;
+  mix-blend-mode: multiply;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;  
 }
 
-.App-link {
-  color: #61dafb;
+.drone > img {
+  width: 429px;
+  height: 354px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.F-210 > h1 {
+  width: 1414px;
+  height: 265px;
+  margin: 328px 168px 2px;
+  font-family: 'Archivo-Bold', sans-serif;
+  font-size: 235px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: 18.8px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: -415px;
+  opacity: 60%;
 }
+
+.bottomText {
+  position: relative;
+  left: 35%;
+  top: -415px;
+ 
+  
+}
+
+.fastestDrone {
+  width: 396px;
+  height: 20px;
+  margin: 2px 219.5px 7px 201px;
+  opacity: 0.23;
+  font-family: 'Archivo', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.29px;
+  text-align: center;
+  color: #31211b;
+  text-transform: uppercase;
+}
+
+.wirecutter {
+  width: 155px;
+  height: 16px;
+  margin: 7px 339.5px 0 322px;
+  opacity: 0.23;
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #31211b;
+}
+

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Archivo-Regular";
+    src: local("Archivo-Regular"),
+      url('./Navbar.js') format("truetype");
+    font-weight: normal;
+  }
+.navbar-nav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.navbar-nav > ul {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.navbar-nav > ul > li  {
+    list-style: none;
+    display: inline;
+    padding: 30px;
+
+}
+
+.navbar-nav > ul > li > a{
+    font-family: 'Archivo-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #31211b;
+    text-transform: uppercase;
+}
+
+
+.navItem {
+    text-decoration: none;
+    align-items: center;
+}
+
+.navbarLeft {
+    position: relative;
+    right: -20%;
+}
+
+.navbarRight {
+    position: relative;
+    right: 0;
+}
+
+.logo {
+    position: relative;
+    left: 10%;
+  }
+  
+  .logo > a > img {
+    width: 216px;
+    height: 32px;
+  }
